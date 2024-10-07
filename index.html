@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initional-scale=1.0">
+        <title>A Carta</title>
+        <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.body {
+    
+   height: 100vh;
+   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://www.todoestudo.com.br/wp-content/uploads/2018/07/Pero-vaz-de-caminha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  }
+
+#texto {
+  position: absolute;
+  top: -100px;
+  transition: top 2s;
+  color: white;
+  font-size: 70px;
+  color: black;
+  }
+
+#butão {
+    margin-top: 20px;
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .escondiddinho {
+    display: none;
+  }
+  .desig {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://2.bp.blogspot.com/-uUbMbRQ44lI/UNzwcp_UbdI/AAAAAAAADi4/ak6nmGxvPuM/s640/A+FROTA+DE+CABRAL+SAI+DE+PORTUGAL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+  .design {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUHTFh-eF9BMtnkz1Zt0YAgE6hFQNWAqt5Jqoe0EikCZl85sM7eGAflFK_4ihQklYt1aAIdC3GqhN85OSM7OYIG-kAONvfDkKMS7M137HTkWjnZUDIqNOOYZ-XfyS-dePonbA0uvXhV6a4/s1600/Meirelles-primeiramissa2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+    input[type=button] {
+      width: 320px; 
+      height: 40px;
+      border-radius: 12px;
+    }
+  .btn:hover {
+    background-color: green;
+    transform: translateY(-5px);
+  }
+  .d {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://www.educacaonamao.com.br/wp-content/uploads/2018/09/quinhentismo-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .de {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://saci.org.br/wp-content/uploads/2019/06/quinhentismo-foto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .des {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://www3.al.sp.gov.br/repositorio/noticia/03-2008/M-Wagner%20Takekawa%20obra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .desi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://rduirapuru.com.br/wp-content/uploads/2022/04/descobrimento-do-brasil-historia-chegada-ao-brasil-e-curiosidades.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .e {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://portosma.com.br/wp-content/uploads/2023/01/Pagina-Carta-5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .es {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://content-cdn.querobolsa.com.br/uploads/29e6a70e-eb77-4a8c-92a2-8415fb1b8705.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .est{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://escolaeducacao.com.br/wp-content/uploads/2020/03/pero-vaz-caminha-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .esti {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('https://academiacristadeletras.org.br/images/artigos/geraldo_nunes/pero_vaz_de_caminha_67fab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .estil {
+    text-align: center;
+    background-image: url('https://academiacristadeletras.org.br/images/artigos/geraldo_nunes/pero_vaz_de_caminha_67fab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    width: 100vw;
+    height: 130vh;
+    color: white;
+  }
+  .v {
+    background-color: rgba(25, 190, 47, 0.89);
+  }
+  .ve {
+    background-color: rgba(255, 0, 0, 0.89);
+  }
+  .color {
+    color: white;
+  }
+  a {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+  }
+  .imagem {
+    border: solid black;
+  }
+  .estilo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+  }
+  .classe {
+    width: 320px; 
+    height: 40px;
+    border-radius: 12px;
+  }
+  .mostreme {
+    display: block;
+  }
+  .final {
+    display: none;
+  }
+  .fim {
+    background-color: rgb(260, 260, 260, 0.8);
+    color:black;
+    text-align: center;
+
+  }
+        </style>
+    </head>
+    <body>
+      <div id="div15" class="body"> 
+        <h1 id="texto">A Carta</h1>
+        <button class="btn" id="butão" style="display: none;" onclick="qvi(0)">Começar</button>
+      </div>
+      <div id="div0" class="escondiddinho">
+        <div class="d">
+        <h1 class="color">Quem foi o escritor da Carta do Achamento?</h1>
+        <br><br><br><br>
+       <form>
+        <input type="button" class="cer4" onclick="divi(2)" value="Pedro Álvares Cabral"><br><br>
+        <input type="button" class="cer3" onclick="divi(2) "value="Luís Vaz de Camões"><br><br>
+        <input type="button" class="cer" onclick="divi(2)" value="Pero Vaz de Caminha"><br><br>
+        <input type="button" class="cer2" onclick="divi(2)" value="Jair Bolsonaro"><br><br>
+        <input type="button" class="cer1" onclick="divi(2)" value="Dom Pedro I">
+       </form>
+       </div>
+      </div>
+      <div id="div2" class="escondiddinho">
+        <div class="de">
+        <h1>Em que data a carta foi escrita?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer1" onclick="divi(3)" value="22 de abril de 1500"><br><br>
+            <input type="button" class="cer2" onclick="divi(3)" value="26 de abril de 1500"><br><br>
+            <input type="button" class="cer" onclick="divi(3)" value="1° maio de 1500"><br><br>
+            <input type="button" class="cer4" onclick="divi(3)" value="24 de dezembro de 1499"><br><br>
+            <input type="button" class="cer3" onclick="divi(3)" value="21 de setembro de 2077"><br><br>
+        </form>
+        </div>
+      </div>
+      <div id="div3" class="escondiddinho">
+        <div class="des">
+        <h1 class="color">Quem foi o destinatário da Carta?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer2" onclick="divi(4)" value="Dom Pedro I"><br><br>
+            <input type="button" class="cer" onclick="divi(4)" value="Dom Manoel I"><br><br>
+            <input type="button" class="cer3" onclick="divi(4)" value="Cristovão Colombo"><br><br>
+            <input type="button" class="cer4" onclick="divi(4)" value="Pedro Álvares Cabral"><br><br>
+            <input type="button" class="cer1" onclick="divi(4)" value="Vasco da Gama">
+        </form>
+        </div>
+      </div>
+      <div id="div4" class="escondiddinho">
+        <div class="desi">
+        <h1>Qual é a principal característica importante da Carta?</h1>
+        <br><br><br><br>
+        <form class="forms">
+            <input type="button" class="cer1" onclick="divi(5)" value="Fez a 'propaganda'para o rei de Portugal "><br><br>
+            <input type="button" class="cer" onclick="divi(5)" value="Foi o primeiro manuscrito do Brasil"><br><br>
+            <input type="button" class="cer2" onclick="divi(5)" value="Apresenta a cultura dos indígenas"><br><br>
+            <input type="button" class="cer3" onclick="divi(5)" value="Foi a primeira notícia do Brasil"><br><br>
+            <input type="button" class="cer4" onclick="divi(5)" value="Não tem importância">
+        </form>
+        </div>
+      </div>
+      <div id="div5" class="escondiddinho">
+        <div class="desig">
+        <h1>Qual foi a primeira impressão do autor sobre a terra descoberta?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer" onclick="divi(6)" value="Terra fértil e de grande potencial"><br><br>
+            <input type="button" class="cer4" onclick="divi(6)" value="Uma terra desolada e sem valor"><br><br>
+            <input type="button" class="cer3" onclick="divi(6)" value="Um local perigoso e inóspito"><br><br>
+            <input type="button" class="cer2" onclick="divi(6)" value="Um lugar com poucas riquezas naturais"><br><br>
+            <input type="button" class="cer1" onclick="divi(6)" value="Um lugar amaldiçoado">
+        </form>
+    </div>
+      </div>
+      <div id="div6" class="escondiddinho">
+        <div class="design">
+        <h1 class="color">Qual foi o tom predominante de Pero Vaz de Caminha ao longo da carta?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer3" onclick="divi(7)" value="Decepção e frustração"><br><br>
+            <input type="button" class="cer" onclick="divi(7)" value="Curiosidade e otimismo"><br><br>
+            <input type="button" class="cer2" onclick="divi(7)" value="Desconfiança e medo"><br><br>
+            <input type="button" class="cer3" onclick="divi(7)" value="Indiferença e neutralidade"><br><br>
+            <input type="button" class="cer1" onclick="divi(7)" value="Superioridade">
+        </form>
+        </div>
+      </div>
+      <div id="div7" class="escondiddinho">
+        <div class="e">
+        <h1>Qual a espécie de comércio realizado entre portugueses e indígenas?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer" onclick="divi(8)" value="Escambo"><br><br>
+            <input type="button" class="cer1" onclick="divi(8)" value="Troca"><br><br>
+            <input type="button" class="cer2" onclick="divi(8)" value="E-commerce"><br><br>
+            <input type="button" class="cer3" onclick="divi(8)" value="Via Pix"><br><br>
+            <input type="button" class="cer4" onclick="divi(8)" value="Barganha">
+        </form>
+        </div>
+      </div>
+      <div id="div8" class="escondiddinho">
+        <div class="es">
+        <h1 class="color">Quais recursos encontrados chamaram a atenção do portugueses?</h1>
+        <br><br><br><br>
+        <form>
+        <input type="button" class="cer4" onclick="divi(9)" value="Trigo, cana e minérios"><br><br>
+        <input type="button" class="cer" onclick="divi(9)" value="Água, vegetação e minérios"><br><br>
+        <input type="button" class="cer2" onclick="divi(9)" value="Frutas, carnes e água"><br><br>
+        <input type="button" class="cer3" onclick="divi(9)" value="Animais, armas e vegetação"><br><br>
+        <input type="button" class="cer1" onclick="divi(9)" value="Minérios, água e animais">
+        </form>
+        </div>
+      </div>
+      <div id="div9" class="escondiddinho">
+        <div class="est">
+        <h1 class="color">Qual a importância da carta para os dias de hoje?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer2" onclick="divi(1)" value="Não é importante, pois é ultrapassado"><br><br>
+            <input type="button" class="cer3" onclick="divi(1)" value="Podemos ver os benefícios da colonização"><br><br>
+            <input type="button" class="cer4" onclick="divi(1)" value="Somente a visão eurocêntrica importa"><br><br>
+            <input type="button" class="cer" onclick="divi(1)" value="Podemos aprender mais sobre nossas origens"><br><br>
+            <input type="button" class="cer1" onclick="divi(1)" value="Aprender sobre a cultura indígena">
+        </form>
+    </div>
+      </div>
+      <div id="div1" class="escondiddinho">
+        <div class="esti">
+        <h1 class="color">Para qual público a carta é importante?</h1>
+        <br><br><br><br>
+        <form>
+            <input type="button" class="cer3"  value="Somente os adultos, pois a linguagem é difícil"><br><br>
+            <input type="button" class="cer4"  value="Somente os jovens, pois eles são o futuro do Brasil"><br><br>
+            <input type="button" class="cer2"  value="Os estrangeiros"><br><br>
+            <input type="button" class="cer1"  value="Somente as crianças"><br><br>
+            <input type="button" class="cer"  value="Todos os brasileiros, pois conta nossas raízes"><br><br>
+        </form>
+        <input type="button" onclick="qvi(12)" style="background-color: black; color: white;" id="buto" value="Finalizar quiz">
+      </div>
+      </div>
+      <div id="div12" class="escondiddinho">
+        <div class="estil">
+        <br>
+        <h1 id="res"></h1>
+        <h1>Obrigado por jogar! Caso queira aprender mais, escaneie o qrcode abaixo.</h1>
+        <img src="https://raw.githubusercontent.com/SecretSociet/prf/main/qrcode.png"  class="imagem" >
+        <h2>Você também pode clicar <a href="https://www.youtube.com/watch?v=lgGwMK9gP_o">aqui</a></h2>
+        <div class="fim">
+          <br>
+          <p style="text-align: center;">CRÉDITOS
+            GRUPO DE PESQUISAS GESTELD (CNPq-CTI-FEB-UNESP)</p>
+
+            <p>Escola: COLÉGIO TÉCNICO INDUSTRIAL PROF ISAAC PORTAL ROLDÁN - FACULDADE DE ENGENHARIA - UNESP, BAURU, SP
+            DISCIPLINAS: LÍNGUA PORTUGUESA E LITERATURA e REDAÇÃO TÉCNICA
+            PROJETO DE PESQUISA: EDUCOMUNICAÇÃO, TECNOLOGIAS E LINGUAGENS
+            Orientação: PROFª DRª MARIA REGINA MOMESSO</p>
+            
+            <p>Empresa de COMUNICAÇÃO E MARKETING: Descobridores da América</p>
+           <p>PRODUÇÃO, DIREÇÃO, EDIÇÃO, DESIGN, LOCUÇÃO
+            EQUIPE: Arthur Negrini, Bryan Rocha, Davi Buchfink, Diego Alba, Helena Martelini, Jhonatan Wesley e Rodrigo Vieira.</p>
+            <br>
+          </div>
+      </div>
+      <script>
+        
+      </script>
+            <script>
+texto.style.top = '0px';
+setTimeout (() => {
+    texto.style.top = '27vh';
+}, 1000);
+
+setTimeout(() => {
+  butão.style.display = 'block';
+}, 3000);
+        </script>
+        <script>
+          function div(divIndex) {
+              document.querySelectorAll('div[id^="div"]').forEach(div => div.classList.add('escondiddinho'));
+              document.getElementById('div' + divIndex).classList.remove('escondiddinho');
+            }
+            function divi(divIndex) {
+              setTimeout(() => {
+                div(divIndex);
+              }, 500);
+            }
+            function fvi(divIndex) {
+            div(divIndex)
+          }
+        </script>
+        <script>
+          function qvi(divIndex) {
+            div(divIndex)
+          }
+        </script>
+        <script>
+          let bloqueio = false;
+
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+    Mensagem("A ação não permitida.");
+});
+
+document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && e.key === "u") {
+        e.preventDefault();
+        if (!bloqueio) {
+            Mensagem("Ação não permitida!");
+            bloqueio = true;
+            setTimeout(() => {
+                bloqueio = false;
+            }, 3000);
+        }
+    }
+    if (e.key === "F12") {
+        e.preventDefault();
+        Mensagem("Ação não permitida!");
+    }
+});
+
+function Mensagem(msg) {
+    let avisodecria = document.createElement("div");
+    avisodecria.textContent = msg;
+    avisodecria.style.position = "fixed";
+    avisodecria.style.bottom = "10px";
+    avisodecria.style.right = "10px";
+    avisodecria.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+    avisodecria.style.color = "white";
+    avisodecria.style.padding = "10px";
+    avisodecria.style.borderRadius = "5px";
+    document.body.appendChild(avisodecria);
+    
+    setTimeout(() => {
+        avisodecria.remove();
+    }, 3000);
+}
+
+        </script>
+        <script>
+            let pontos = 0;
+            const questoescertas = document.querySelectorAll('.cer');
+            const questoeserro = document.querySelectorAll('.cer1');
+            const questoes = document.querySelectorAll('.cer2');
+            const question = document.querySelectorAll('.cer3');
+            const quest = document.querySelectorAll('.cer4');
+
+            question.forEach(button => {
+          button.addEventListener('click', function () {
+            button.classList.add('ve');
+          });
+        });
+        quest.forEach(button => {
+          button.addEventListener('click', function () {
+            button.classList.add('ve');
+          });
+        });
+
+            questoes.forEach(button => {
+          button.addEventListener('click', function () {
+            button.classList.add('ve');
+          });
+        });
+
+        questoescertas.forEach(button => {
+            button.addEventListener('click', function() {
+                pontos++;
+                button.classList.add('v');
+                button.disabled = true;
+            });
+        });
+        questoeserro.forEach(button => {
+          button.addEventListener('click', function () {
+            button.classList.add('ve');
+          });
+        });
+        document.getElementById('buto').addEventListener('click', function() {
+           let mensagem = mensagemfinal(pontos);
+           document.getElementById('res').innerText = mensagem;
+            questoescertas.forEach(button => {
+            button.disabled = false;
+            button.classList.remove('v'); 
+    });
+    function mensagemfinal (pontos) {
+        if (pontos === 0 ) {
+            return "Nenhuma questão correta escolhida"
+        } else if (pontos === 1 ) {
+            return "Você acertou 1/10"
+        } else if (pontos === 2) {
+          return "Você acertou 2/10"
+        } else if (pontos === 3) {
+          return "Você acertou 3/10"
+        } else if (pontos === 4) {
+        return "Você acertou 4/10"
+        } else if (pontos === 5) {
+          return "Você acertou 5/10"
+        } else if (pontos === 6) {
+          return "Você acertou 6/10"
+        } else if (pontos === 7) {
+          return "Você acertou 7/10. Parabéns!"
+        } else if (pontos === 8) {
+          return "Você acertou 8/10. Parabéns!"
+        } else if (pontos === 9) {
+          return "Você acertou 9/10. Parabéns!"
+        } else if (pontos === 10) {
+          return "Você acertou 10/10. Parabéns!"
+        }
+    }
+    questoeserro.forEach(button => {
+        button.disabled = false; 
+        button.classList.remove('ve'); 
+    });
+        });
+        </script> 
+    </body>
+    <!--⢀⣀⣀⣀⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠴⠶⠛⠛⠛⠶⠶⢦⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⢋⢹⣿⣄⢹⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣄⣠⣴⣆⣠⣶⣀⣀⢠⡀⠈⠉⠳⢦⣀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣽⣧⡎⢹⣿⣧⢹⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠿⠿⠿⠿⠻⠿⣿⣯⣿⡔⣦⡄⠀⠙⢧⡀⠀⠀
+⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⡜⠿⣿⣆⢻⣟⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⣝⢦⣀⠈⢻⡄⠀
+⠀⠀⠀⣠⣾⣿⡯⠑⠀⠉⠁⠂⠀⠁⠸⢏⡿⣽⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣌⠣⠀⢿⡄
+⠀⠀⢰⣟⠇⣼⣶⣄⣀⡤⠖⠠⠉⠘⡐⠬⣸⢹⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣎⡗⡠⡜⣇
+⢀⣴⠟⢁⣠⣿⣿⠟⠋⠀⠠⢀⠁⠒⢀⠒⣥⣫⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡿⣜⠡⠇⣿
+⣿⣇⡀⣿⠃⠀⠄⠀⠀⢀⠀⢀⠘⢠⠘⣼⡼⠟⢿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡧⣜⠣⢸⣿
+⣿⠃⠀⠀⠀⡁⠂⠄⢡⢀⠢⢄⡊⢴⡿⠛⢀⣴⡿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⡿⣱⠻⢃⣾⠇
+⠹⣦⣄⣤⣴⠿⣎⡜⣢⢎⣱⣶⠿⠋⢁⡴⢿⡳⣽⣹⡿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣿⢫⡗⣧⢓⣼⠏⠀
+⠀⠙⢿⣥⣶⣾⣷⣿⣷⣾⠟⠁⠀⠰⠋⠁⠮⠑⠂⠓⠀⠛⢿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⣤⣤⣤⣶⣶⣶⣶⣶⣶⣶⣾⡿⣏⠿⣜⡣⠚⣡⣾⠋⠀⠀
+⠀⠀⠀⠈⠉⠹⣿⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣷⣿⣶⣤⣀⣀⣀⣀⣀⣀⣤⣤⣴⣶⣿⢿⣟⡿⣫⢯⣟⣻⡽⣳⢯⣻⣭⣟⣿⣻⢿⣿⣭⢛⣥⣳⡿⠟⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢻⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⠻⣜⣳⢯⣿⣿⢿⣻⣿⢿⡿⣟⣯⢿⣱⢯⣟⢾⡹⣽⢻⣎⢷⣹⢏⣯⢳⡞⡿⣖⢯⢻⡼⣷⣿⡾⠋⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⠇⠑⢨⡟⣽⠲⣏⣿⢳⣭⢯⣽⣻⡜⢯⠳⣏⡾⢣⢻⣜⠿⣘⢮⡳⣏⢮⢳⣝⡳⡹⢎⡳⢭⣻⣿⣇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⠏⠀⠀⢰⠏⢆⠹⡜⣾⠳⡘⢎⠶⣽⠘⣃⠻⣜⡱⢉⠶⣹⠚⡄⣣⠝⢢⢎⢣⠧⠱⡙⢬⣱⢯⡟⣿⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣏⠀⠀⠀⡹⠊⠀⠀⢼⣣⠃⠈⡌⢻⡬⠑⠠⠑⣎⠱⢈⠺⡅⠒⡨⢅⡫⡐⢌⠦⢃⠱⡈⢖⡡⢎⡽⣯⣿⣷⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢃⠀⠀⠀⠵⠁⠀⠈⠲⣍⠂⠀⠀⠓⡌⠀⠀⠰⠠⠁⠀⠳⠄⠀⠑⢎⠰⠁⡌⡘⡀⢢⢑⠮⡗⢯⢻⡽⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠎⠀⠀⠀⠐⡄⠀⠀⠀⠈⠐⠀⠀⠀⠀⠀⠀⠁⠀⠀⠈⠄⢂⠡⠐⠁⠀⠀⠈⡐⢌⣣⣧⣿⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⣠⣐⠧⠛⠭⠻⣜⢷⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⣠⠴⣹⣞⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠈⠉⠁⠉⠓⡽⣿⢿⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⠀⡀⠀⠀⠀⠀⠀⠀⠀⢹⣦⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⢀⠠⢤⡰⣄⢦⡸⣽⢶⡀⠀⠀⠀⠀⠀⠀⢤⣙⣼⣻⣿⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣦⡁⠀⠀⠀⠀⠀⠀⠀⢸⣿⣣⣛⡴⣉⢦⡱⣌⡶⣱⣲⢦⣳⣽⣞⣷⣯⣿⣷⣿⣾⣿⣿⣿⣷⣻⢦⣄⠀⡀⠀⠀⠀⠉⠀⣩⢿⣳⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣷⠀⠀⠀⠀⠀⠀⣤⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠛⠛⠛⠛⠋⠙⣿⣿⣿⣿⣿⣿⣿⣮⣷⡜⣤⢠⠀⠀⠀⠛⣾⣯⣷⡄⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡇⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⠿⠟⠛⠛⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣷⣷⡭⣆⠣⢆⡀⠀⠀⠈⠻⣽⣦⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⡿⠛⠿⣿⣽⣢⣜⣁⡀⠀⠀⠰⠉⣿⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⢸⣿⡿⠽⠾⣽⣻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣟⢿⣻⢿⣇⡿⠀⠀⠀⠉⠛⠿⣷⣯⡄⠀⠀⠀⢹⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠃⠀⠀⢀⣿⣿⡗⢩⠓⡼⣹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢊⠣⢜⣻⣼⠇⠀⠀⠀⠀⠀⠀⠀⢹⣷⠀⠀⠀⢘⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠀⠀⠀⣸⣿⠏⣿⡀⠒⠠⢻⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠏⠀⠐⢢⣿⠟⠀⠀⠀⠀⠀⠀⠀⢀⣸⡯⠀⠀⠀⢸⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⡴⠟⠁⠀⠀⢀⣿⣯⣦⣼⠷⠀⠀⢙⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡶⠶⠞⠋⠀⠀⠀⣼⡏⠀⠀⠀⠀⠀⠀⣠⣴⢾⡿⠃⠀⠀⠀⣼⡇
+⠀⠀⠀⠀⠀⠀⠀⢰⡏⠁⠀⠀⠀⠀⠀⢀⣾⣿⡟⡆⠀⠀⠐⠀⣸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡀⠀⠀⠀⠀⠀⣼⠟⠀⠀⠀⠀⠀⠀⢸⣏⠀⠀⠀⠀⠀⠀⢠⣿⠁
+⠀⠀⠀⠀⠀⠀⠀⢘⡷⢦⣤⣤⣴⣶⣿⠿⢻⣿⣿⡷⠶⠶⠾⠿⠟⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠒⠒⠲⠒⠟⠋⠀⠀⠀⠀⠀⠀⠀⠈⡿⠷⠶⠤⢤⣴⣶⢿⢃⠀
+    Gostou da arte?-->
+</html>
